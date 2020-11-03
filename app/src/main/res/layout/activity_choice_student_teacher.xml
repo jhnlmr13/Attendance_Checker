@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChoiceStudentTeacher"
+    android:paddingTop="250dp">
+    <Button
+        android:id="@+id/btnStudent"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_rounded"
+        android:fontFamily="@font/bangers"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Student"
+        android:textColor="#ffffff"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btnTeacher"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_rounded_white"
+        android:fontFamily="@font/bangers"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Teacher"
+        android:textColor="#FF5722"
+        android:textSize="22sp" />
+
+</LinearLayout>
